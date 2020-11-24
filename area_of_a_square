@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+void square() {
+    double side, area;
+    cout << "--------Pole kwadratu--------" << endl;
+    cout << "Podaj dlugosc boku kwadratu: ";
+    cin >> side;
+    area = side * side;
+    cout << "Pole kwadratu wynosi: " << area;
+}
+
+int main() {
+    square();
+
+    return 0;
+}
