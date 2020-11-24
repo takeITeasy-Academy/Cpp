@@ -1,0 +1,21 @@
+#include <iostream>
+
+#define PI 3.14
+
+using namespace std;
+
+void circle() {
+    double radius, area;
+
+    cout << "----------Pole kola----------" << endl;
+    cout << "Podaj promien kola: ";
+    cin >> radius;
+    area = PI * radius * radius;
+    cout << "Pole kola wynosi: " << area;
+}
+
+int main() {
+    circle();
+
+    return 0;
+}
