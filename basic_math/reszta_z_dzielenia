@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+void theRestOfDivision() {
+    int counter, denominator, rest, result;
+
+    cout << "-----------Program do oblicznia reszty z dzielenia-----------" << endl;
+    cout << "Podaj licznik: ";
+    cin >> counter;
+    cout << "Podaj mianownik: ";
+    cin >> denominator;
+
+    result = counter / denominator;
+    rest = counter % denominator;
+
+    cout << counter << " / " << denominator << " = " << result << " reszty " << rest;
+}
+int main() {
+    theRestOfDivision();
+    return 0;
+}
