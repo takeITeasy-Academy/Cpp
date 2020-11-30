@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+void factorial() {
+    int n, factorial = 1;
+    cout << "---------Program do obliczania silni---------" << endl;
+
+    cout << "Podaj liczbe: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; ++i) {
+        factorial *= i;
+    }
+
+    cout << "Silnia z " << n << " = " << factorial;
+}
+
+int main() {
+    factorial();
+    return 0;
+}
